@@ -1,0 +1,30 @@
+// --- Variables List   ---
+
+$breakpoints: (
+    mobile: 768px,
+    //(max-width)
+    tablet: 1140px,
+    //(max-width)
+    desktop: 1440px,
+    //(max-width)
+);
+
+// --- Mixins  ---
+
+@mixin mobile {
+    @media (max-width: map-get($breakpoints, mobile)) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: map-get($breakpoints, tablet)) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width: map-get($breakpoints, desktop)) {
+        @content;
+    }
+}
