@@ -3,7 +3,7 @@
 Voici ma proposition de **l'application immobilière Kasa** ! 👋
 
 ⬇️ Lien pour y accéder ⬇️
-https://phisicz.github.io/P6-Kasa/
+https://kasa-vercel-azure.vercel.app/
 
 ---
 
