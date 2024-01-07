@@ -1,0 +1,82 @@
+@use "../../utils/" as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    // Le contenu horizontal qui contient toutes les photos de sortria pas du container
+    // Pour obtenir l'animation de slide horizontal
+    overflow: hidden;
+
+    margin: auto;
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+
+    @include mobile {
+        height: 255px;
+    }
+
+    // ce conteneur sert uniquement a contenir toutes les images horizontalement
+    .slider {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .picture {
+        flex: 0 0 100%;
+        max-width: 100%; // Assure que l'image ne dépasse pas la largeur de son conteneur.
+
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .chevrons {
+        .chevronLeft {
+            position: absolute;
+            top: 40%;
+            left: 0px;
+
+            width: 79px;
+            cursor: pointer;
+            transform: rotate(-90deg);
+
+            @include mobile {
+                width: 30px;
+            }
+        }
+
+        .chevronRight {
+            position: absolute;
+            top: 40%;
+            right: 0px;
+
+            width: 79px;
+            cursor: pointer;
+            transform: rotate(90deg);
+
+            @include mobile {
+                width: 30px;
+            }
+        }
+    }
+
+    .count {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include font(18px, 500);
+        color: map-get($colors, basic-text);
+
+        @include mobile {
+            display: none;
+        }
+    }
+}

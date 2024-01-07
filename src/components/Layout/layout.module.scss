@@ -1,0 +1,14 @@
+@use "../../utils/" as *;
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+
+    @include tablet {
+        margin-inline: 40px;
+    }
+
+    @include mobile {
+        margin-inline: 20px;
+    }
+}

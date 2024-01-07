@@ -1,0 +1,52 @@
+@use "../../utils/" as *;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 45px;
+
+    @include mobile {
+        margin-top: 20px;
+    }
+
+    .logo {
+
+        width: 150px;
+
+        @include mobile {
+            max-width: 35vw;
+        }
+    }
+
+    .navlist {
+        display: flex;
+        gap: 57px;
+
+        @include mobile {
+            gap: 26px;
+        }
+
+        .item {
+            .link {
+                color: map-get($colors, primary);
+                @include font(18px, 500);
+
+                &:hover {
+                    color: darken(map-get($colors, primary), 20);
+                }
+
+                @include mobile {
+                    text-transform: uppercase;
+                    @include font(12px, 500);
+                }
+
+                &.active {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

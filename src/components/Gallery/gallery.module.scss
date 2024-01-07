@@ -1,0 +1,23 @@
+@use "../../utils/" as *;
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    background-color: map-get($colors, bloc-bg);
+    border-radius: 25px;
+    padding: 50px 56px;
+
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px;
+
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,76 @@
+@use "../../utils/" as *;
+
+.blockTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 54px;
+    background-color: map-get($colors, primary);
+    border-radius: 5px;
+
+    @include mobile {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title {
+        @include font(20px, 500);
+        color: map-get($colors, basic-text);
+
+        @include mobile {
+            @include font(13px, 500);
+        }
+    }
+
+    .chevron {
+        cursor: pointer;
+        transition: 400ms ease-in-out;
+
+        @include mobile {
+            width: 20px;
+        }
+
+        &.rotated {
+            transform: rotate(-180deg);
+        }
+    }
+}
+
+.blockText {
+    background-color: map-get($colors, bloc-bg);
+    border-radius: 5px;
+
+    max-height: 0; // Par défaut, le bloc existe dans le DOM mais est replié pour permettre l'animation
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+
+    &.open {
+        max-height: 1000px; // On applique une valeur suffisamment grande pour afficher tout le contenu
+    }
+
+    .text {
+        @include font(16px, 400);
+        color: map-get($colors, primary);
+        padding: 28px 28px 20px 20px;
+        line-height: 26px;
+
+        opacity: 0;
+        transform: translateY(-30px);
+        transition: all 0.3s ease-in-out;
+
+        @include mobile {
+            @include font(13px, 500);
+            line-height: 18px;
+            padding: 20px;
+        }
+
+        &.open {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}

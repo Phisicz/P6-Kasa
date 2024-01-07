@@ -1,0 +1,17 @@
+@use "../../utils/" as *;
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+    @include mobile {
+        gap: 7px;
+    }
+}
+
+.star {
+    @include mobile {
+        width: 13px;
+    }
+}

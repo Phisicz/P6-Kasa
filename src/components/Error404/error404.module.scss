@@ -1,0 +1,55 @@
+@use "../../utils/" as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 139px;
+
+    @include mobile {
+        gap: 113px;
+    }
+
+    .text404 {
+        @include font(288px, 700);
+        color: map-get($colors, primary);
+
+        @include tablet {
+            @include font(200px, 700);
+        }
+
+        @include mobile {
+            @include font(96px, 700);
+        }
+    }
+
+    .tagline {
+        @include font(36px, 500);
+        color: map-get($colors, primary);
+
+        @include tablet {
+            @include font(26px, 500);
+        }
+
+        @include mobile {
+            @include font(18px, 500);
+            text-align: center;
+            line-height: 26px;
+            max-width: 70vw;
+        }
+    }
+    .backwardLink {
+        @include font(18px, 500);
+        color: map-get($colors, primary);
+        text-decoration: underline;
+
+        &:hover {
+            color: darken(map-get($colors, primary), 20);
+            cursor: pointer;
+        }
+
+        @include mobile {
+            @include font(14px, 500);
+        }
+    }
+}

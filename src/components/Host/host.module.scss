@@ -1,0 +1,32 @@
+@use "../../utils/" as *;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+    .name {
+        @include font(18px, 500);
+        color: map-get($colors, primary);
+        line-height: 26px;
+        text-align: right;
+
+        @include mobile {
+            @include font(12px, 500);
+            line-height: 17px;
+        }
+    }
+
+    .picture {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+
+        @include mobile {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
