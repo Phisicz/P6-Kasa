@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🚀 Kasa - Application immobilière (P6 - Openclassrooms) 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Voici ma proposition de **l'application immobilière Kasa** ! 👋
 
-## Available Scripts
+⬇️ Lien pour y accéder ⬇️
+test
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Introduction 📌
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔍 **Qu'est-ce que c'est ?**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Cet application React* est le [sixième projet de la formation Développeur Web par Openclassrooms].
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📖 Description 📖
+Ce projet a pour but de créer une application react, plus précisément l'app immobilière Kasa. Aucun code n'a été fourni si ce n'est la maquette afin d'avoir les designs de l'app. C'est un excellent exercice pour se familiariser avec React et Sass, tout deux utilisés tout au long de ce projet. 
 
-### `npm run build`
+### 🎯 Objectif
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+L'objectif principal de ce projet (P6) était principalement de [commencer à comprendre les bases en React, savoir rendre le site responsive et dynamique puis également de se familiariser avec Sass afin d'avoir une app avec une customisation plus poussée avec notamment des animations].
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠️ Fonctionnalités
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **WIP** : WIP
+- **WIP** : WIP
 
-### `npm run eject`
+---
+## 📚 Information pour le lancer le code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Pour configurer l'environnement de développement de cette application, suivez les étapes suivantes :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clonez le dépôt sur votre machine locale en utilisant :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    git clone https://github.com/Phisicz/P6-Kasa.git
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Naviguez dans le dossier du projet :
 
-## Learn More
+    ```bash
+    cd votreRepo
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Installez les dépendances du projet :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    yarn
+    ```
 
-### Code Splitting
+    ```bash
+    yarn add react-router-dom
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    yarn add sass
+    ```
 
-### Analyzing the Bundle Size
+## Lancement de l'application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pour lancer l'application sur un serveur de développement local, exécutez :
 
-### Making a Progressive Web App
+    ```bash
+    cd votreRepo
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    yarn start
+    ```
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🤝 Merci d'avoir consulté ma version de *l'app Kasa* !
