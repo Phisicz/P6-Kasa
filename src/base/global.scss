@@ -23,26 +23,18 @@ h3 {
 
 // Définition des variables light mode
 :root {
-    --background-color: #fff; // Blanc pour le mode clair
-    --text-color: #000; // Noir pour le mode clair
-}
+    // Light Mode
+    --light-background-color: #fff;
+    --light-text-color: #000;
 
-// Styles light mode
-.light {
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-// Définition des variables dark mode
-.dark {
-    --background-color: #1e1e1e; // Gris foncé pour le mode sombre
-    --text-color: #fff; // Blanc pour le mode sombre
-    --secondary-color-dark: #353535; // Couleur secondaire pour le mode sombre
+    // Dark Mode
+    --dark-background-color: #1e1e1e;
+    --dark-text-color: #fff;
+    --dark-secondary-color: #353535;
 }
 
 // Styles dark mode
 .dark {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    --secondary-color-dark: #353535;
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
 }

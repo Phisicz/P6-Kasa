@@ -74,3 +74,11 @@
         }
     }
 }
+
+:global(body.dark) .blockText{
+    background-color: var(--dark-secondary-color);
+
+    .text {
+        color: var(--dark-text-color);
+    }
+}

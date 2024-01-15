@@ -20,5 +20,8 @@
 
         background-color: #fff;
     }
+}
 
+:global(body.dark) .container {
+    background-color: var(--dark-secondary-color);
 }
