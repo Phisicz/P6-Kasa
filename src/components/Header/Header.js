@@ -1,14 +1,17 @@
-import React from "react";
-
+import React, { useContext } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import { ThemeContext } from "../../context/ThemeContext"
 
 import logo from "../../assets/img/Logo/logo.svg";
-
 import styles from "./header.module.scss";
+import { ToggleButton } from "./ToggleButton";
 
 const Header = () => {
     // On utilise ce hook react routeur pour determiner que quelle page on se trouve et appliquer l'underline
     const location = useLocation();
+    const { theme, toggleTheme } = useContext(ThemeContext);
+
+    console.log("Thème actuel dans Header:", theme); // Pour le débogage
 
     return (
         <header className={styles.container}>
@@ -44,6 +47,10 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            {/* Bouton Toggle pour changer le thème */}
+            <ToggleButton onClick={toggleTheme}>
+                Changer de Thème
+            </ToggleButton>
         </header>
     );
 };

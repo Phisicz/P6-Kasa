@@ -1,0 +1,31 @@
+.toggleContainer {
+    width: 45px;
+    height: 24px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #ddd;
+    padding: 0 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .toggleKnob {
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+    transform: translateX(0); /* Ajustez la position de départ du knob */
+  }
+  
+  .toggleKnob.isActive {
+    transform: translateX(21px);
+    background: #1e1e1e;
+  }
+  
+  .toggleContainer.isActive {
+    background: #ff6060;
+  }
+  
