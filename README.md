@@ -43,23 +43,17 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
 
 ---
 
-## 📚 Informations pour lancer le projet
+## 📚 Informations pour installer et lancer le projet
 
  Pour configurer l'environnement de développement de cette application, suivez les étapes suivantes :
 
-1. Clonez le dépôt dans un dossier avec un nom de votre choix sur votre machine locale en utilisant :
+1. Crééz un dossier avec le nom de votre choix, ouvrez le dossier dans votre IDE et exécutez la commande :
 
     ```bash
     git clone https://github.com/Phisicz/P6-Kasa.git
     ```
 
-2. Naviguez dans le dossier du projet que vous avez crééz au préalable :
-
-    ```bash
-    cd leNomdeVotreDossier
-    ```
-
-3. Installez les dépendances du projet :
+2. Maintenant que vous avez cloné le repo, il va falloir installer toutes les dépendances, et pour se faire, exécutez les commandes suivantes :
 
     ```bash
     yarn
@@ -73,17 +67,13 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
     yarn add sass
     ```
 
-## Lancement de l'application
-
-Pour lancer l'application sur un serveur de développement local, exécutez :
-
-    ```bash
-    cd leNomdeVotreDossier
-    ```
+3. Le projet est maintenant prêt à être lancé en local, pour lancer l'application exécutez ceci :
 
     ```bash
     yarn start
     ```
+
+Si vous souhaitez avoir votre fork en ligne il faudra créer une branch exprès avec github pages ou bien le mettre en ligne à l'aide de vercel
 ---
 
 🤝 Merci d'avoir consulté ma version de *l'app Kasa* !
