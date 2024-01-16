@@ -1,7 +1,8 @@
 import React from "react";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import { ThemeProvider } from './context/ThemeContext'; // Importation de ThemeProvider
+import { LanguageProvider } from './context/LanguageContext';
+import { ThemeProvider } from './context/ThemeContext';
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -14,6 +15,7 @@ import "./base/typography.scss";
 
 export default function App() {
     return (
+        <LanguageProvider>
         <ThemeProvider> {/* Englobez toute l'application avec ThemeProvider */}
             <HashRouter>
                 <Layout>
@@ -28,5 +30,6 @@ export default function App() {
                 </Layout>
             </HashRouter>
         </ThemeProvider>
+        </LanguageProvider>
     );
 }

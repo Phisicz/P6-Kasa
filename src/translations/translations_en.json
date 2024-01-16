@@ -1,0 +1,299 @@
+{
+    "titles": {
+        "title_c67ab8a7": "Cosy apartment",
+        "title_b9123946": "Beautiful apartment near Canal Saint Martin",
+        "title_46d188c5": "Charming studio - Buttes Chaumont",
+        "title_7af00cd6": "Cosy nest in the heart of the 11th",
+        "title_0979876d": "Luxury apartment - 10th",
+        "title_f72a452f": "Artist studio",
+        "title_b4c67936": "Cheap - Studio 18th",
+        "title_bc6f7112": "Superb apartment near the Eiffel Tower",
+        "title_cb2f9222": "Family suite",
+        "title_d60ca600": "Modern apartment overlooking park",
+        "title_2cf259e1": "Charming Studio Marais",
+        "title_5323c29b": "Functional Studio République",
+        "title_af6d2d48": "Bungalow in the forest",
+        "title_7cbb378e": "Large house near the suburbs",
+        "title_ba55a0cc": "5-room house - Le Vésinet",
+        "title_1e181317": "Luxury loft at La Défense",
+        "title_1e180563": "Charming apartment on the outskirts of Paris",
+        "title_2139a317": "Cheap - Room Paris 20",
+        "title_6ff132c6": "Charming studio",
+        "title_cb02d69b": "Splendid Rivoli apartment"
+    },
+    "descriptions": {
+        "description_c67ab8a7": "Your home away from home. Whether you're coming from the other side of the world, or just a few RER stations away, you'll feel right at home in our apartment.",
+        "description_b9123946": "Enjoy the charm of Parisian life in a magnificent apartment. Just a 3-minute walk from the Canal Saint Martin, you'll be close to transport links, as well as numerous shops. The apartment is fully equipped, and also has parking for those who wish to travel by car.",
+        "description_46d188c5": "Just a stone's throw from the Buttes Chaumont, come and discover Paris in this fully-equipped studio apartment. Fully equipped for your comfort and elegantly decorated, it will let you live like a Parisian for the duration of your stay.",
+        "description_7af00cd6": "Come and discover Paris by staying in this cosy nest in the heart of the 11th district. The view over the residential park is sure to give you a rest from your long days of sightseeing in the French capital. And for the party-goers among you, rue Jean Pierre Timbaud is just 5 minutes away from the apartment",
+        "description_0979876d": "This fully renovated loft, equipped with luxury furnishings, will seduce you. Ideally located in the 10th arrondissement, getting around Paris will be a breeze.",
+        "description_f72a452f": "Come and soak up Parisian culture in this tastefully decorated former artist's studio in the heart of Montmartre.",
+        "description_b4c67936": "This fully functional Studio will be your perfect pied à terre for all your Parisian excursions. Ideally located near lines 2 and 4, you'll have quick access to all the sights of Paris.",
+        "description_bc6f7112": "This superb apartment will surprise you with its charm.Completely refurbished, it is tastefully equipped. The size of the rooms will make you doubt you're in Paris. But all you have to do is step outside to see that you're right in the heart of Paris' finest attractions: the Louvre, the Eiffel Tower and the Grand Palais are just a stone's throw away. It's up to you to come and discover Paris",
+        "description_cb2f9222": "Paris is waiting for you!With family or friends, come and discover the city of love in a tasteful apartment. All the shops are just a few minutes away.Its proximity to the Montparnasse train station also makes it an ideal choice for those who need to catch a train.",
+        "description_d60ca600": "Breathing in the heart of Paris? It's possible!Overlooking a residential park, you can open the windows without having to suffer from the noise of cars and pollution. On the contrary, you'll be able to listen to the birds. Our apartment is also ideally located in the heart of the 11th arrondissement.Close to lines 3 and 2, you'll be able to discover Paris effortlessly.",
+        "description_2cf259e1": "Located in the heart of the Marais district, our studio apartment is ideal for tourists in search of discovery. Its fully equipped kitchen is particularly practical.",
+        "description_5323c29b": "Ideally located 2 steps from Place de la République, this particularly functional studio is perfect for discovering Paris. Close to all points of interest thanks to the 5 metro lines that are just 5 minutes away, you'll be able to make the most of your time spent in the capital.",
+        "description_af6d2d48": "Leave Paris behind and go green. Just 30 minutes from Gare du Nord station, come and discover the forest of Ecouen directly from the window of your bungalow. Fully equipped, this accommodation will welcome you in comfort, while allowing you to concentrate on the essentials. In the morning, open the windows and enjoy the birdsong",
+        "description_7cbb378e": "Looking for a place to celebrate a birthday with friends while staying close to Paris? Look no further! Fully equipped, this house is the ideal place to gather.",
+        "description_ba55a0cc": "T5 house. Ideal for large groups. 45 minutes from Paris Saint-Lazare.",
+        "description_1e181317": "If you're looking for the perfect place to put down your suitcases between two business meetings, look no further. Our loft is just the place. Right in the heart of La Défense, it also has all the amenities to make you feel right at home.",
+        "description_1e180563": "This charming apartment offers luxury amenities at the gateway to Paris. Just a stone's throw from line 3, you'll be able to access all the tourist attractions you've always dreamed of.",
+        "description_2139a317": "This room has all the necessary facilities. Close to the metro and shops.",
+        "description_6ff132c6": "This tastefully decorated studio will be your cozy nest after a long day spent discovering Paris.",
+        "description_cb02d69b": "In the heart of the historic Marais district, this apartment is ideal for a couple discovering Paris. Located on Rue de Rivoli, it's just 5 minutes from the Louvre."
+    },
+    "equipments": {
+        "equipments_c67ab8a7": [
+            "Basic equipment",
+            "Microwave",
+            "Italian shower",
+            "Fridge",
+            "WIFI"
+        ],
+        "equipments_b9123946": [
+            "Parking",
+            "Hair dryer",
+            "Washing machine",
+            "Wi-fi",
+            "Kitchen",
+            "Television"
+        ],"equipments_46d188c5": [
+            "Wi-fi",
+            "Kitchen",
+            "Television",
+            "Hair dryer"
+        ],
+        "equipments_7af00cd6": [
+            "Microwave",
+            "Wi-fi",
+            "Separate Room",
+            "Air conditioning",
+            "Television"
+        ],
+        "equipments_0979876d": [
+            "American fridge",
+            "Hair dryer",
+            "Wi-fi",
+            "Separate bedroom",
+            "Parking"
+],
+        "equipments_f72a452f": [
+            "Separate Bedroom",
+            "Parking"
+        ],
+        "equipments_b4c67936": [
+            "Bathroom",
+            "Fridge",
+            "Wi-fi",
+            "Hair dryer",
+            "Office",
+            "Parking"
+        ],
+        "equipments_bc6f7112": [
+            "Wi-fi",
+            "Hair dryer",
+            "Washing machine",
+            "Parking",
+            "King Size Bed",
+            "Elevator"
+        ],
+        "equipments_cb2f9222": [
+            "Air conditioning",
+            "Washing machine",
+            "Hair dryer",
+            "Wi-fi",
+            "Parking"
+        ],
+        "equipments_d60ca600": [
+            "Park view",
+            "Heating",
+            "Dryer",
+            "Hair dryer",
+            "Wi-fi",
+            "Elevator"
+        ],
+        "equipments_2cf259e1": [
+            "Sofa bed",
+            "Oven",
+            "Hair dryer",
+            "Wi-fi"
+        ],
+        "equipments_5323c29b": [
+            "Storage",
+            "Bed",
+            "Hair dryer",
+            "Wi-fi",
+            "TV",
+            "Kettle"
+        ],
+        "equipments_af6d2d48": [
+            "Bathroom",
+            "Kitchen",
+            "Dry toilet",
+            "Fridge",
+            "Kettle"
+        ],
+        "equipments_7cbb378e": [
+            "Bathroom",
+            "Kitchen",
+            "Fridge",
+            "Kettle",
+            "WIFI",
+            "Television",
+            "Hangers",
+            "Basic equipment"
+        ],
+        "equipments_ba55a0cc": [
+            "Kettle",
+            "Bathroom",
+            "Equipped kitchen",
+            "Fridge",
+            "WIFI",
+            "TV",
+            "Hangers",
+            "Oven",
+            "Microwave",
+            "Parking"
+        ],
+        "equipments_1e181317": [
+            "Bay window",
+            "Television",
+            "Oven",
+            "Fridge",
+            "Wi-fi",
+            "Microwave",
+            "Parking"
+        ],
+        "equipments_1e180563": [
+            "Television",
+            "Oven",
+            "Fridge",
+            "Hood",
+            "Wi-fi",
+            "Microwave"
+        ],
+        "equipments_2139a317": [
+            "Kettle",
+            "Wi-fi",
+            "Microwave"
+        ],
+        "equipments_6ff132c6": [
+            "Basic equipment",
+            "Oven",
+            "Fridge",
+            "Wi-fi",
+            "Microwave"
+        ],
+        "equipments_cb02d69b": [
+            "Wi-fi",
+            "Basic equipment",
+            "Microwave",
+            "Fridge",
+            "Bathtub"
+        ]
+    },
+    "tags": {
+        "tags_c67ab8a7": [
+            "Batignolle",
+            "Montmartre"
+        ],
+        "tags_b9123946": [
+            "Canal Saint Martin",
+            "République",
+            "Apartment"
+        ],
+        "tags_46d188c5": [
+            "Buttes Chaumont",
+            "Laumière",
+            "Studio"
+        ],
+        "tags_7af00cd6": [
+            "Parmentier",
+            "Marais",
+            "Park",
+            "Night Life"
+        ],
+        "tags_0979876d": [
+            "Goncourt",
+            "Near shops"
+        ],
+        "tags_f72a452f": [
+            "Montmartre",
+            "Culture",
+            "Charm"
+        ],
+        "tags_b4c67936": [
+            "Transportation",
+            "Cheap",
+            "18th"
+        ],
+        "tags_bc6f7112": [
+            "Luxury",
+            "Eiffel Tower",
+            "3 rooms",
+            "6th"
+        ],
+        "tags_cb2f9222": [
+            "Montparnasse",
+            "Shops",
+            "Family"
+        ],
+        "tags_d60ca600": [
+            "Père Lachaise",
+            "11th",
+            "Metro line 3",
+            "Metro line 2"
+        ],
+        "tags_2cf259e1": [
+            "Marais",
+            "Studio",
+            "Park"
+        ],
+        "tags_5323c29b": [
+            "Marais",
+            "République",
+            "Studio",
+            "Near metro station",
+            "Shops"
+        ],
+        "tags_af6d2d48": [
+            "Forest",
+            "Nature",
+            "Musée d'Ecouen"
+        ],
+        "tags_7cbb378e": [
+            "Forest",
+            "Nature",
+            "Big house"
+        ],
+        "tags_ba55a0cc": [
+            "Nature",
+            "Group",
+            "House"
+        ],
+        "tags_1e181317": [
+            "La Défense",
+            "Loft",
+            "Luxury"
+        ],
+        "tags_1e180563": [
+            "Park view",
+            "Charming Apartment"
+        ],
+        "tags_2139a317": [
+            "Park view",
+            "Subways"
+        ],
+        "tags_6ff132c6": [
+            "Studio",
+            "Charming",
+            "13th"
+        ],
+        "tags_cb02d69b": [
+            "Louvre",
+            "Marais",
+            "Rivoli"
+        ]
+    }
+}
