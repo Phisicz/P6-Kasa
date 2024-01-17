@@ -47,7 +47,7 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
 
  Pour configurer l'environnement de développement de cette application, suivez les étapes suivantes :
 
-1. Crééz un dossier avec le nom de votre choix, ouvrez le dossier dans votre IDE et exécutez la commande :
+1. Crééz un dossier avec le nom de votre choix, ouvrez le dossier dans votre IDE et exécutez la commande dans le terminal :
 
     ```bash
     git clone https://github.com/Phisicz/P6-Kasa.git
@@ -74,6 +74,7 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
     ```
 
 Si vous souhaitez avoir votre fork en ligne il faudra créer une branch exprès avec github pages ou bien le mettre en ligne à l'aide de vercel
+
 ---
 
 🤝 Merci d'avoir consulté ma version de *l'app Kasa* !
