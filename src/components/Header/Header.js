@@ -16,7 +16,6 @@ const Header = () => {
             <Link to="/home">
                 <img src={logo} className={styles.logo} alt="logo kasa" />
             </Link>
-
             <nav>
                 <ul className={styles.navlist}>
                     <li className={styles.item}>

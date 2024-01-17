@@ -1,6 +1,8 @@
 // --- Variables List   ---
 
 $breakpoints: (
+    small-mobile: 580px,
+    //(max-width)
     mobile: 768px,
     //(max-width)
     tablet: 1140px,
@@ -10,6 +12,12 @@ $breakpoints: (
 );
 
 // --- Mixins  ---
+
+@mixin small-mobile {
+    @media (max-width: map-get($breakpoints, small-mobile)) {
+        @content;
+    }
+}
 
 @mixin mobile {
     @media (max-width: map-get($breakpoints, mobile)) {
