@@ -4,10 +4,13 @@ import React, { createContext, useState, useEffect } from 'react';
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState('light');
+    // Utilisez localStorage pour récupérer le thème actuel ou 'light' par défaut
+    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
+    // Effet pour mettre à jour la classe CSS du body et sauvegarder le thème dans localStorage
     useEffect(() => {
         document.body.className = theme;
+        localStorage.setItem('theme', theme);
     }, [theme]);
 
     // Fonction pour changer le thème

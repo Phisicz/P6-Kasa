@@ -45,7 +45,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <nav>
+            <nav className={styles.togglenav}>
                 {/* Bouton Toggle pour changer le language */}
                 <LanguageButton />
 
