@@ -38,3 +38,30 @@ h3 {
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
 }
+
+
+/* PERSONNALISATION SCROLL BAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Couleur du bouton */
+::-webkit-scrollbar-button {
+    background: #DDDDDD; /* Light Mode */
+}
+body.dark::-webkit-scrollbar-button {
+    background: #1a1a1a; /* Dark Mode */
+}
+
+/* Couleur de la piste */
+::-webkit-scrollbar-track {
+    background: #F6F6F6; /* Light Mode */
+}
+body.dark::-webkit-scrollbar-track {
+    background: #353535; /* Dark Mode */
+}
+
+/* Couleur de la poignée */
+::-webkit-scrollbar-thumb {
+    background: #FF6060; /* Light Mode */
+}
