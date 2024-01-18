@@ -3,6 +3,7 @@
 .wrapper {
     max-width: 1200px;
     margin: auto;
+    min-height: 81.58vh;
 
     @include tablet {
         margin-inline: 40px;
