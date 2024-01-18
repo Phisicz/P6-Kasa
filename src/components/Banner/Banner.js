@@ -6,7 +6,7 @@ const Banner = ({ image, text }) => {
     return (
         <div className={styles.container}>
             <img src={image} alt="bannière paysage" className={styles.img} />
-            <h1 className={styles.text}>{text}</h1>
+            {text && <h1 className={styles.text}>{text}</h1>}
         </div>
     );
 };
