@@ -1,4 +1,4 @@
-# 🚀 Kasa - Application immobilière (P6 - Openclassrooms) 🚀
+# 🚀 Kasa - Application immobilière 🚀
 
 Voici ma proposition de **l'application immobilière Kasa** ! 👋
 
@@ -11,7 +11,8 @@ https://p6-kasa-nine.vercel.app/
 
 🔍 **Qu'est-ce que c'est ?**
 
-*Cet application React* est le [sixième projet de la formation Développeur Web par Openclassrooms].
+*Cet application React* est le <ins>sixième projet de la formation Développeur Web par Openclassrooms
+</ins>.
 
 ---
 
