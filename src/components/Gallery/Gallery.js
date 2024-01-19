@@ -8,6 +8,7 @@ import { getAllHouses } from "../../services/logementService";
 
 const Gallery = () => {
   const [houses, setHouses] = useState([]);
+  const [isLoading, setIsLoading] = useState(true); // Ajoutez une variable d'état pour le chargement
 
   useEffect(() => {
     // Utilisez une fonction pour obtenir les données des logements
@@ -16,8 +17,10 @@ const Gallery = () => {
         // Ici, vous pouvez remplacer cet appel fictif par l'appel à votre backend lorsque vous l'aurez
         const data = await getAllHouses(); // Utilisez la fonction du service
         setHouses(data);
+         setIsLoading(false); // Indiquez que les données sont chargées
       } catch (error) {
         console.error(error);
+         setIsLoading(false); // Indiquez que les données ne sont pas chargées en cas d'erreur
       }
     }
 
@@ -27,13 +30,21 @@ const Gallery = () => {
 
   return (
     <div className={styles.container}>
-      {houses.map((location) => (
-        <article key={location.id}>
-          <Link to={`/logement/${location.id}`}>
-            <Card image={location.cover} title={location.title} />
-          </Link>
-        </article>
-      ))}
+      {isLoading ? (
+        // Affichez la div de chargement en cours
+        <div className={styles.loadingContainer}>
+          <span className={styles.loadingText}>Chargement en cours...</span>
+          <div className={styles.loadingIcon}></div>
+        </div>
+      ) : (
+        houses.map((location) => (
+          <article key={location.id}>
+            <Link to={`/logement/${location.id}`}>
+              <Card image={location.cover} title={location.title} />
+            </Link>
+          </article>
+        ))
+      )}
     </div>
   );
 };
