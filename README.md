@@ -3,7 +3,7 @@
 Voici ma proposition de **l'application immobilière Kasa** ! 👋
 
 ⬇️ Lien pour y accéder ⬇️
-https://p6-kasa-nine.vercel.app/
+<https://p6-kasa-nine.vercel.app/>
 
 ---
 
