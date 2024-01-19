@@ -43,9 +43,10 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
 
 ## 🛠 Technologies Utilisées
 
-https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&color=%231E1E1E
-https://img.shields.io/badge/react-white?style=for-the-badge&logo=react-router&color=%231E1E1E
-https://img.shields.io/badge/react-white?style=for-the-badge&logo=sass&color=%231E1E1E
+![Static Badge](https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&color=%231E1E1E)
+![Static Badge](https://img.shields.io/badge/react--router-white?style=for-the-badge&logo=react-router&color=%231E1E1E)
+![Static Badge](https://img.shields.io/badge/sass-white?style=for-the-badge&logo=sass&color=%231E1E1E)
+
 
 - **React :** Utilisé pour construire l'interface utilisateur avec des composants réutilisables.
 - **React Router :** Employé pour gérer le routage dans l'application.
