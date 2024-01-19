@@ -20,13 +20,18 @@ Ce projet a pour but de créer une application react, plus précisément l'app i
 
 ## 🎯 Objectif
 
-L'objectif principal de ce projet (P6) était principalement de [commencer à comprendre les bases en React, savoir rendre le site responsive et dynamique puis également de se familiariser avec Sass afin d'avoir une app avec une customisation plus poussée avec notamment des animations].
+L'objectif principal de ce projet (P6) était principalement de [commencer à comprendre les bases en React, savoir rendre le site responsive et dynamique puis également de se familiariser avec Sass afin d'avoir une app avec une customisation plus poussée].
 
 ### 🚀 Fonctionnalités
 
 - Respect des maquettes Figma pour le design responsive de l'application.
 - Gestion du défilement des photos dans la galerie avec comportement cyclique et gestion des cas avec une seule image.
 - Implémentation des menus déroulants (Collapse) avec état initial fermé et gestion de l'ouverture/fermeture sur clic.
+- Ajout d'un dark mode sur l'entiereté de la page, géré via un switch toggle.
+- Ajout de la traduction vers l'anglais, géré par un bouton switch (non complété).
+- Modification du design de la scrollbar pour correspondre d'avantage au design de l'app.
+- Ajout d'une div de chargement afin de patienter avant que les cards dans la gallery chargent complètement (temporaire jusqu'a avoir un skeleton complet de l'app).
+
 
 ### ⚙️ Contraintes
 
@@ -34,6 +39,7 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
 - Respect des coding guidelines de Kasa.
 - Maintien de la hauteur constante pour la galerie d'images, avec des images coupées et centrées.
 - Les Collapses sont fermés par défaut et peuvent être ouverts ou fermés sur clic.
+- Absence de librairies, nécéssitant de coder toutes les fonctionnalités de façon native.
 
 ## 🛠 Technologies Utilisées
 
@@ -53,18 +59,10 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
     git clone https://github.com/Phisicz/P6-Kasa.git
     ```
 
-2. Maintenant que vous avez cloné le repo, il va falloir installer toutes les dépendances, et pour se faire, exécutez les commandes suivantes :
+2. Maintenant que vous avez cloné le repo, il va falloir installer toutes les dépendances (dans package.json), et pour se faire, exécutez les commandes suivantes :
 
     ```bash
     yarn
-    ```
-
-    ```bash
-    yarn add react-router-dom
-    ```
-
-    ```bash
-    yarn add sass
     ```
 
 3. Le projet est maintenant prêt à être lancé en local, pour lancer l'application exécutez ceci :
@@ -73,7 +71,7 @@ L'objectif principal de ce projet (P6) était principalement de [commencer à co
     yarn start
     ```
 
-Si vous souhaitez avoir votre fork en ligne il faudra créer une branch exprès avec github pages ou bien le mettre en ligne à l'aide de vercel
+Si vous souhaitez avoir votre fork en ligne il faudra le mettre en ligne à l'aide de vercel ou autre hébergeur.
 
 ---
 
