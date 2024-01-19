@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-
 import chevron from "../../assets/img/Icons/chevronUp.svg";
-
 import styles from "./collapse.module.scss";
 
-const Collapse = ({ title, text }) => {
-    // On le déclare en false car de base il est fermé
+const Collapse = ({ title, text, isList }) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    // Lors du clic sur un chevron le state passe en true
     const toggleCollapse = () => {
         setIsOpen(!isOpen);
     };
@@ -35,13 +31,23 @@ const Collapse = ({ title, text }) => {
                         : styles.blockText
                 }
             >
-                <div
-                    className={
-                        isOpen ? `${styles.text} ${styles.open}` : styles.text
-                    }
-                >
-                    {text}
-                </div>
+                {isList ? (
+                    <ul className={styles.list}>
+                        {text.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                ) : (
+                    <div
+                        className={
+                            isOpen
+                                ? `${styles.text} ${styles.open}`
+                                : styles.text
+                        }
+                    >
+                        {text}
+                    </div>
+                )}
             </div>
         </div>
     );
