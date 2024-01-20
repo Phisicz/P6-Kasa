@@ -64,29 +64,29 @@ const HousingDisplay = () => {
             </div>
 
             {/* Collapses */}
-            <Collapse
-                title={"Description"}
-                isList={false} // Mettez à false pour le texte simple
-                // on map le tableau descriptions pour rendre des span après chaque points pour revenir à la ligne
-                text={descriptions.map((sentence, index) => (
-                    <React.Fragment key={index}>
-                        <h3>{sentence.trim()}.</h3>
-                    </React.Fragment>
-                ))}
-            />
+            <div className={styles.collapse}>
+                <Collapse
+                    title={"Description"}
+                    // on map le tableau descriptions pour rendre des span après chaque points pour revenir à la ligne
+                    text={descriptions.map((sentence, index) => (
+                        <React.Fragment key={index}>
+                            <h3>{sentence.trim()}.</h3>
+                        </React.Fragment>
+                    ))}
+                />
 
-            <Collapse
-                title={"Équipements"}
-                isList={true} // Mettez à true pour la liste
-                // On encapsule dans un système de listes pour rendre l'affichage plus clair
-                text={
-                    <ul>
-                        {data.equipments.map((equipment) => (
-                            <li key={equipment}>{equipment}</li>
-                        ))}
-                    </ul>
-                }
-            />
+                <Collapse
+                    title={"Équipements"}
+                    // On encpasule dans un système de listes pour rendre l'affichage plus clair
+                    text={
+                        <ul>
+                            {data.equipments.map((equipment) => (
+                                <li key={equipment}>{equipment}</li>
+                            ))}
+                        </ul>
+                    }
+                />
+            </div>
         </>
     );
 };
